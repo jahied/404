@@ -297,7 +297,7 @@ def pilih_super():
 	jalan(' \033[1;93m ....•◈•ᑕᑐᑕᑐᑕᑐᑕᑐ•◈•....Cloning Start plzzz Wait....•◈•ᑕᑐᑕᑐ\033[1;92mWhatsApp.+8801747951169\033[1;93mᑕᑐᑕᑐ•◈•...... ')																	
 	print "\033[1;92m•◈•ᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐ•◈•\033[1;96mBlack.Hunter\033[1;92m•◈•ᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐᑕᑐ•◈•"																	
 																		
-                idg = raw_input('\x1b[1;91m[+] \x1b[1;92mID Group   \x1b[1;91m:\x1b[1;97m ')																		
+                idg = raw_input('\x1b[1;91m[+] \x1b[1;92mID Group \x1b[1;91m:\x1b[1;97m ')																		
                 try:																		
                     r = requests.get('https://graph.facebook.com/group/?id=' + idg + '&access_token=' + toket)																		
                     asw = json.loads(r.text)																		
